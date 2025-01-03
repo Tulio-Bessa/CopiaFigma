@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Faculdade de Desaprendizagem - Satebril</title>
+        <!-- Link para o Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Link para a Fonte Poppins -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- Link para CSS Externo -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Logo Satebril" alt="Logo" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testemunhos">Testemunhos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Texto da primeira página -->
+    <section id="home">
+            <div class="textoCapa">
+                <h1>Conheça a maior faculdade de desaprendizagem do Mundo!</h1>
+                <p>Cansado de se sentir <strong>inteligente</strong> perto dos seus amigos jogadores de LOL? Junte-se a nós.</p>
+                <br><br>
+                <a href="#ingresso" class="botao-inscreva-se">Inscreva-se</a>
+            </div>
+            <div>
+                <img src="assets/onichan.png" alt="Imagem Representativa" class="imgOni">
+            </div>
+    </section>
+
+    <!-- 2 bloco fundo branco -->
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <!-- Coluna esquerda com os 3 blocos -->
+                <div class="col-md-6">
+                    <br>
+                    <div class="slot">
+                        <p>A Satrebil é a primeira e única faculdade de desaprendizagem do mundo</p>
+                    </div>
+
+                    <div class="slot">
+                        <p>Esqueça todas as skills, competências e qualidades adquiridas durante sua vida </p>
+                    </div>
+
+                    <div class="slot">
+                        <p>Temos nota 1 no MEC, as empresas e grandes corporações fogem de nós.</p>
+                    </div>
+                </div>
+
+                <!-- Coluna direita -->
+                <div class="col-md-6">
+                    <div class="textoCapa deslocado">
+                        <br>
+                        <h1>A Ignorância é uma Benção</h1>
+                        <br><br>
+                        <p>Na faculdade Satrebil acreditamos que o excesso de conhecimento só complica a vida. Nosso objetivo é libertar você do fardo da sabedoria, devolvendo a pureza do pensamento simples. Se você já tem um diploma de Mestre ou Doutor, estamos aqui para ajudar a limpar sua mente e trazer de volta a clareza do desconhecimento. Afinal, quanto menos você sabe, menos problemas você tem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="buscaCursos">
+            <div class="row">
+                <div class="col-6">
+                    <h4>Encontre o curso certo para você na Satrebil!</h4>
+                    <p>Temos diversos níveis de cursos de acordo com o nível de desaprendizagem que deseja</p>
+                </div>
+                <div class=col-6>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Pesquise por palavras-chave">
+                    <datalist id="datalistOptions">
+                        <option value="Desnutrição">
+                        <option value="Sistemas de Desinformação">
+                        <option value="Incômodo Visual">
+                        <option value="Involução Jurídica">
+                      </datalist>
+                </div>
+            </div>
+        </section>
+        <section id="cursos">
+            <div class="row">
+                <div class="col-8">
+                    <h1 style="font-size: 96px; font-weight: 400;">Nossos cursos</h1>
+                    <br>
+                    <p style="font-size: 30px;">Oferecemos uma experiência única para aqueles que já trilharam o caminho do conhecimento, mas agora buscam a desintegração intelectual. Cada curso é especialmente projetado para desconstruir os saberes acumulados ao longo de sua vida acadêmica.</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/cursos.jpg" class="imgCurso">
+                </div>
+            </div>
+        </section>
+        <section class="cursosDestaque">
+            <h2>Cursos em destaque <span class="abc" style="font-size: 50px; letter-spacing: 1px;">&nbsp;&nbsp;&nbsp;abcdefghijklm</span></h2>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col-6" style="border-radius: 100px;">
+                    <div class="card">
+                        <img src="assets/nutrição.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title" style="font-size: 40px;font-weight: bold;">Desnutrição</h5>
+                        <p class="card-text" style="font-size: 28px; max-width: 363px;">Esqueça tudo sobre dietas balanceadas e ricas em nutrientes. Aqui você aprenderá com os melhores nutricionistas do TikTok sobre a semelhança entre um Doritos e 250 pães.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="card">
+                        <img src="assets/sistemas.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title" style="font-size: 40px;font-weight: bold;">Sistemas de Desinformação</h5>
+                        <p class="card-text" style="font-size: 28px;">Durma tranquilamente após espalhar uma quantidade absurda de desinformações. Aprenda a divulgar Fake News nas principais plataformas: Whatsapp, Telegram e Facebook.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="card">
+                        <img src="assets/eldenring.webp" class="card-img-top" alt="Elden Ring Desenvolvido pela Ubisoft">
+                        <div class="card-body">
+                        <h5 class="card-title">Incômodo Visual</h5>
+                        <p class="card-text">A beleza está nos olhos de quem vê, mas não aqui! Ignore as combinações de cores e a experiência do usuário, entre no Paint e deixe sua imaginação fluir.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Involução Jurídica</h5>
+                        <p class="card-text">Deixe pra trás as leis e os códigos complicados. Aqui, a regra é simples: Quem grita mais alto tem razão.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <button rel="#">Conheça todos os cursos</button>
+        </section>
+        <section class="porqueSatrebil">
+            <p class="abc">abcdefghijklm</p>
+            <div class="row">
+                <div class="col-6">
+                    <h2>Por que escolhar a Satrebil ?</h2>
+                    <button class="botaoSatrebil" href="contato">Inscreva-se</button>
+                </div>
+                <div class="col-6">
+                    <p>Na Satrebil, os professores estão sempre abaixo dos alunos, se você não sabe o que está fazendo, eles sabem menos ainda! Priorizamos o esquecimento, a falta de vontade e o antiprofissionalissimo.</p>
+                    <p>Nosso objetivo é fazer com que mais profissionais sejam incapazes, afinal, quem não quer esquecer todas as responsabilidades e conhecimentos carregados na cabeça?</p>
+                    <p>Venha conhecer nossos cursos e não aprenda nada, muito pelo contrário, abandone seus conhecimentos e libere a criança dentro de você.</p>
+                </div>
+            </div>
+            <p class="abc">abcdefghijklm</p>
+        </section>
+        <!-- Seção de Testemunhos -->
+        <!-- Seção de Testemunhos -->
+        <section id="testemunhos">
+            <div class="container">
+                <h2>Os melhores em serem os piores!</h2>
+                <!-- Contêiner para rolagem horizontal -->
+                <div class="row mt-4">
+                    <div class="d-flex">
+                        <!-- Testemunho 1 -->
+                        <div class="testemunho-card p-4 mx-2">
+                            <img src="https://via.placeholder.com/80" class="testemunho-img" alt="Foto ">
+                            <p>Amei meu curso! Pedi para minha mãe me ajudar escrever, pois já não sei nem mais escrever meu nome, só sei ler figuras!! Obrigada Satrebil, você mudou minha vida.</p>
+                            <p><strong>Julia Sudário</strong><br>Aluna de Desnutrição</p>
+                        </div>
+    
+                        <!-- Testemunho 2 -->
+                        <div class="testemunho-card p-4 mx-2">
+                            <img src="https://via.placeholder.com/80" class="testemunho-img" alt="Foto ">
+                            <p>Era engenheiro civil, mas depois de dois semestres na Satrebil, confundo um martelo com uma colher. A vida ficou tão mais simples sem o peso da lógica!</p>
+                            <p><strong>Thalison Santos</strong><br>Aluno de Destruição Urbana</p>
+                        </div>
+    
+                        <!-- Testemunho 3 -->
+                        <div class="testemunho-card p-4 mx-2">
+                            <img src="https://via.placeholder.com/80" class="testemunho-img" alt="Foto ">
+                            <p>Fazia cálculos complexos e hoje mal sei contar até dez. É incrível! Meu nome foi para o Serasa em menos de 2 meses de curso.</p>
+                            <p><strong>Túlio Bessa</strong><br>Aluno de Descontrole Financeiro</p>
+                        </div>
+                        <!-- Testemunho 4 -->
+                        <div class="testemunho-card p-4 mx-2">
+                            <img src="https://via.placeholder.com/80" class="testemunho-img" alt="Foto ">
+                            <p>Maravilhoso! Após duas semanas deste curso, fiz vários designs para aplicativos de banco e sites de prefeitura!</p>
+                            <p><strong>Dílan Marques</strong><br>Aluno de Incômodo Visual</p>
+                        </div>
+                        <!-- Testemunho 5 (novo bloco) -->
+                        <div class="testemunho-card p-4 mx-2">
+                            <img src="https://via.placeholder.com/80" class="testemunho-img" alt="Foto ">
+                            <p>Estava muito dedicado ao meu trabalho até cheguei ter um Burnout, depois da Satrebil eu passo meus dias brincando no quintal, fazendo bolinhos de terra e as vezes até como eles.</p>
+                            <p><strong>Gabriel</strong><br>Aluna de Desfazendo Equações</p>
+                        </div>
+                        <!-- Testemunho 6 (novo bloco) -->
+                        <div class="testemunho-card p-4 mx-2">
+                            <img src="https://via.placeholder.com/80" class="testemunho-img" alt="Foto ">
+                            <p>Você sabia que foi o John Satrebil que fundou nossa instituição?</p>
+                            <p><strong>Adryan</strong><br>Aluno de Desprogramação</p>
+                        </div>
+                     
+                    </div>
+                </div>
+    
+               
+    
+            </div>
+        </section>
+    
+    <!-- Seção de Formas de Ingresso -->
+    <section style="background-color: #355e3b; color: white; text-align: center; padding: 20px 0; width: 100%;">
+        <div class="container-fluid">
+            <h3 class="fw-bold mb-1">Formas de ingresso</h3>
+            <p class="mb-0">Comece sua jornada rumo ao desconhecimento absoluto.</p>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Seção de Formas de Ingresso -->
+    <section class="formas-ingresso py-5" style="background-color: #A3B18A;">
+        <div class="container">
+            <div class="row">
+                <!-- Bloco da Esquerda -->
+                <div class="col-md-6">
+                    <div class="ingresso-card mb-4">
+                        <div class="ingresso-card-body text-center">
+                            <h5 class="ingresso-card-title">Vestibular</h5>
+                            <p class="ingresso-card-text">
+                                Somos conhecidos pelo vestibular mais difícil do Brasil, afinal, aqui aceitamos somente alunos de extrema excelência.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ingresso-card">
+                        <div class="ingresso-card-body text-center">
+                            <h5 class="ingresso-card-title">Indicação de parente</h5>
+                            <p class="ingresso-card-text">
+                                Seu parente trabalha aqui? Basta pedir uma indicação pra ele! Com indicação de parente você consegue tudo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Bloco da Direita -->
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-custom" placeholder="Nome completo">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-custom" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control form-control-custom" placeholder="Telefone">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-custom" placeholder="Curso de interesse">
+                        </div>
+                        <div class="form-check text-start mb-3">
+                            <input type="checkbox" class="form-check-input" id="termos">
+                            <label class="form-check-label" for="termos">
+                                Eu li e aceito os termos de <a href="#" class="text-decoration-none">Política de Privacidade</a> (ou a ausência dela) que dizem que meus dados serão roubados e vendidos..
+                            </label>
+                        </div>
+                        <a href="#" class="botao-inscreva-se">Inscreva-se</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+       
+    
+    
+                <!-- Seção de Perguntas Frequentes -->
+    
+        <section class="sectionFAQ py-5" id="faq">
+            <div class="container">
+                <div class="card card-custom mx-auto">
+                    <h3 class="text-center mb-4">Perguntas Frequentes</h3>
+                    <p class="underline text-center mb-4">~~</p>
+                    <p><span class="topicos">Preciso ter diploma para entrar?</span><br>
+                        Sim, quanto mais qualificado você for, mais bem-vindo será na nossa Instituição.</p><br>
+                    <p><span class="topicos">O que vou aprender?</span><br>
+                        Absolutamente nada.</p><br>
+                    <p><span class="topicos">E se eu ainda lembrar de algo depois do curso?</span><br>
+                        Não se preocupe, oferecemos cursos de reforço para garantir que você sairá daqui com nenhum resquício de conhecimento.</p>
+                </div>
+            </div>
+        </section>
+    
+    
+                <!-- Seção de Contato -->
+         <section id="contato">
+                <div class="container">
+                    <h2>Contato</h2>
+                    <p>Precisa de ajuda? Contate-nos</p>
+                    <p> 0800 1234 333</p>
+                    <p> contato@satrebil.com</p>
+                    <p>Satrebil - Faculdades Desintegradas</p>
+                    <p>Avenida Valsecnew Zrab, n.º 1810, Lagozona, São Sebastião do Paraíso/MG</p>
+                    <p>CEP 37.950-000</p>
+        
+                    <div class="footer mt-4">
+                        <div class="social-icons mb-3">
+                            <a href="#">Instagram</a>
+                            <a href="#">Facebook</a>
+                            <a href="#">LinkedIn</a>
+                            <a href="#">Tiktok</a>
+                        </div>
+                        <p>SATREBIL FACULDADES DESINTEGRADAS &copy; TODOS OS DIREITOS RESERVADOS</p>
+                        <p>Imagens geradas por IA e retiradas do Freepik</p>
+                    </div>
+                </div>
+            </section>
+    </body>
+</html>
+

@@ -1,0 +1,508 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+.abc {
+    font-family: "Redacted Script" cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100px;
+}
+
+button {
+    background-color: #3A5A40;
+    color: #FFFFFF;
+}
+
+/* Menu*/
+.navbar {
+    padding-left: 2.5cm;
+    padding-right: 2.5cm;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu*/
+.navbar {
+    padding-left: 2.5cm;
+    padding-right: 2.5cm;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+/* Começo primeira Tela */
+#home {
+    background-color: #A3B18A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+.textoCapa {  /* Deixa o fundo verde sobre toda a primeira tela*/
+    max-width: 1920px;
+}
+
+.textoCapa h1 {  /* Titulo da primeira tela*/
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.textoCapa p { /* Parágrafo da primeira tela*/
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;  /* Deixa as letras espaçadas */
+}
+
+.botao-inscreva-se { /* Botão Inscreva-se*/
+    background-color: rgba(58, 90, 64, 1); 
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.botao-inscreva-se:hover { /* Botão Inscreva-se*/
+    background-color: rgb(71, 111, 78)
+}
+
+.immgOni {
+    width: 300px;
+    height: 300px;
+}
+
+/* fundo branco  2° Bloco*/
+#sobre {
+    background-color: white;
+    color: black;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+
+#sobre p {  /* mantem o texto e os slots alinhados:  2° Bloco*/
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.slot {
+    background-color: #f8f9fa;
+    padding: 1.5rem; /* Espaço que os slots ocupam */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 80px; /* Espaço entre os slots e o texto da direita */
+    margin-bottom: 3rem;
+}
+
+
+.slot p {
+    font-size: 1.1rem;
+}
+
+/* Deslocando o texto da direita */
+.textoHome.deslocado {
+    margin-left: 100px; /* Ajusta o deslocamento para a direita */
+}
+
+#buscaCursos {
+    background-color: #3A5A40;
+    color: #FFFFFF;
+    padding: 50px 80px;
+}
+
+.form-control {
+    background-color: #3A5A40;
+    color: #FFFFFF;
+    border-radius: 60px;
+    padding: 30px;
+}
+
+#cursos {
+    background-color: #A3B18A;
+    color: #FFFFFF;
+    padding: 8rem 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+.imgCurso {
+    display: flex;
+    justify-content: flex-end;
+    border-top-left-radius: 360px;
+    border-top-right-radius: 360px;
+    width: 500px;
+    height: 500px;
+}
+
+.cursosDestaque {
+    background-color: FFFFFF;
+    color: black;
+    padding: 50px 200px;
+}
+
+.porqueSatrebil {
+    background-color: #A3B18A;
+    color: #FFFFFF;
+}
+
+.card {
+    border-radius: 100px;
+    height: 732px;
+    width: 623px;
+}
+
+.card-body {
+    background-color: #3A5A40 3px 3px 3px;
+}
+
+.card-img-top {
+    width: 623px;
+    height: 297px;
+}
+
+
+.slot {
+    background-color: #f8f9fa;
+    padding: 1.5rem; /* Espaço que os slots ocupam */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 80px; /* Espaço entre os slots e o texto da direita */
+    margin-bottom: 3rem;
+}
+
+
+.slot p {
+    font-size: 1.1rem;
+}
+
+/* Deslocando o texto da direita */
+.textoCapa.deslocado {
+    margin-left: 100px; /* Ajusta o deslocamento para a direita */
+}
+
+        /* COMEÇO DA TERCEIRA TELA  */
+
+
+
+        /* Testemunhos - Determina o tamanho e a centralização dos testemunhos */
+        #testemunhos {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .testemunho-card { /* Efeito de card nos testemunhos */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s;
+            min-width: 300px;
+            max-width: 300px;
+            margin-right: 20px;
+        }
+
+        .testemunho-card:hover {
+            transform: scale(1.05);
+        }
+
+        .testemunho-img { /*Fotos do grupo, determina espaço e deixa redondo */
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-top: -40px;
+            border: 3px solid white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+         /* Estilo de rolagem horizontal */
+         .sectionTestemunhos .row {
+            display: flex;
+            overflow-x: auto;
+            padding: 1rem 0;
+        }
+
+
+        /* COMEÇO DA QUARTA TELA */
+
+
+
+        /* Transformação da FAQ */
+        .sectionFAQ .card-custom { /* Posição do  Card Principal */
+        
+        position: relative; /* Necessário para o posicionamento  */
+        box-shadow: 5px 15px 20px 15px rgba(58, 90, 64, 0.3); /* Sombra leve para o card principal */
+        font-family: 'Poppins', sans-serif;
+        
+        }
+
+        .card-custom { /* Edição card principal*/
+            max-width: 1000px;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 10px 10px 20px #A3B18A; /* Sombra à direita e abaixo */ 
+        }
+
+
+        /*card de fundo" inclinado */
+        .sectionFAQ .card-custom::before {
+        content: "";
+        position: absolute;
+        border-radius: 20px;
+        top: 25px; /* Posiciona levemente abaixo */
+        left: 13px; /* Posiciona levemente à direita */
+        width: 100%;
+        height: 100%;
+        background-color: #A3B18A; /* Cor do fundo */
+        transform: rotate(1deg); /* Inclina o "card de fundo" */
+        z-index: -1; /* Coloca o pseudo-elemento atrás do card principal */
+        box-shadow: 0px 0px 0px rgb(0, 0, 0); /* Aplica borda sólida sem desfoque */
+        }
+
+
+        .topicos {  /* ULTIMA TELA RODA PÉ*/
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Contato */
+        #contato {
+            background-color: #2E4F32;
+            color: #ffffff;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+       
+
+        .contact-info p {
+            font-size: 1.2em;
+        }
+       
+        .footer {
+            border-top: 1px solid #ffffff;
+            padding-top: 20px;
+            font-size: 0.8em;
+        }
+
+        .social-icons a { /*deixar os links brancos*/
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+
+
+        /*FORMAS DE INGRESSO*/
+
+        .ingresso-card { /*ESTILO E BORDA DOS CARDS DA ESQUERDA*/
+        background-color: #A3B18A;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border: 1px solid white;
+        margin-left: 0;
+        }
+        
+        .ingresso-card-title { /*TITULOS DOS CARDS DA ESQUERDA*/
+        color: white;
+        }
+
+        .ingresso-card-text { /*Textos DOS CARDS DA ESQUERDA*/
+        color: white;
+        font-size: 0.9rem;
+        }
+        
+        /* Estilo dos inputs */
+        .form-control-custom {
+        border: none;
+        border-radius: 25px;
+        padding: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+
+.card {
+    border: none;
+    border-radius: 20px; 
+    overflow: hidden; /* Garante que o conteúdo fique dentro do card */
+    position: relative;
+    background-color: white;
+    border-left: 1.5px solid rgb(235, 235, 235); /* Borda do lado esquerdo */
+    margin-bottom: 30px; /* Espaçamento entre os cards */
+}
+
+/* Sombra inclinada aplicada aqui */
+.card-shadow {
+    box-shadow: 15px 15px 0px #A3B18A; /* Sombra verde inclinada */
+    position: relative;
+    z-index: 1;
+}
+
+.card img {
+    height: 150px; 
+    width: 100%; /* Ocupa toda a largura do card */
+    object-fit: cover; /* Garante que a imagem se ajusta */
+    background-color: #ccc; /* Cor de fundo substituindo uma imagem real */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.card-body {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.highlight-title {
+    color: #627b5e; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left; /* Alinhando o título principal à esquerda */
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: rgba(58, 90, 64, 1); 
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover { /*Botão */
+    background-color: #627b5e; /* Mantém a cor original no hover */
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ajuste para a posição das colunas */
+.row {
+    margin-left: -30px;  /* Afastando as colunas da esquerda */
+    margin-right: -30px; /* Afastando as colunas da direita */
+}
+
+.col {
+    padding-left: 30px; /* Dando espaço à esquerda */
+    padding-right: 30px; /* Dando espaço à direita */
+}
+
+/* Espaço entre os cards e o botão */
+.card-container {
+    margin-bottom: 5px; /* Espaçamento entre os cards e o botão */
+}
+
+.text-center {
+    margin-top: 30px; /* Espaçamento entre os cards e o botão */
+}
+---
+section.cursosDestaque.card {
+    border: none;
+    border-radius: 20px; 
+    overflow: hidden; /* Garante que o conteúdo fique dentro do card */
+    position: relative;
+    background-color: white;
+    border-left: 1.5px solid rgb(235, 235, 235); /* Borda do lado esquerdo */
+    margin-bottom: 30px; /* Espaçamento entre os cards */
+}
+
+/* Sombra inclinada aplicada aqui */
+.card-shadow {
+    box-shadow: 15px 15px 0px #A3B18A; /* Sombra verde inclinada */
+    position: relative;
+    z-index: 1;
+}
+
+.card img {
+    height: 150px; 
+    width: 100%; /* Ocupa toda a largura do card */
+    object-fit: cover; /* Garante que a imagem se ajusta */
+    background-color: #ccc; /* Cor de fundo substituindo uma imagem real */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.card-body {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.highlight-title {
+    color: #627b5e; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left; /* Alinhando o título principal à esquerda */
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: rgba(58, 90, 64, 1); 
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover { /*Botão */
+    background-color: #627b5e; /* Mantém a cor original no hover */
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ajuste para a posição das colunas */
+.row {
+    margin-left: -30px;  /* Afastando as colunas da esquerda */
+    margin-right: -30px; /* Afastando as colunas da direita */
+}
+
+.col {
+    padding-left: 30px; /* Dando espaço à esquerda */
+    padding-right: 30px; /* Dando espaço à direita */
+}
+
+/* Espaço entre os cards e o botão */
+.card-container {
+    margin-bottom: 5px; /* Espaçamento entre os cards e o botão */
+}
+
+.text-center {
+    margin-top: 30px; /* Espaçamento entre os cards e o botão */
+}
